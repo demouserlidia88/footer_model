@@ -1,0 +1,105 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.btn_close {
+  background: linear-gradient(
+    96.76deg,
+    #ffc727 -16.42%,
+    #9e40ba 97.04%,
+    #7000ff 150.71%
+  );
+  border-radius: 44px;
+  overflow: hidden;
+}
+footer#bottom div.team-modal-window {
+  position: relative;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffffee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+div.status div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+div.status div a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+  border: 2px solid #000;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.name {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: var(--transition);
+}
+ul li:hover span.name {
+  color: var(--hover-color);
+}
+.position {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+div a:hover {
+  border: 2px solid var(--hover-color);
+  color: var(--hover-color);
+}
+div svg {
+  width: 27px;
+  height: 27px;
+  color: #000;
+  transition: var(--transition);
+}
+div a:hover svg {
+  color: var(--hover-color);
+}
